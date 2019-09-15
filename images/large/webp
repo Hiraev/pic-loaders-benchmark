@@ -1,0 +1,5 @@
+#!/bin/bash
+for i in {1..25}
+do
+	cwebp -q 80 "$i.png" -o "$i.webp"
+done
